@@ -41,6 +41,7 @@ nav ul li a:hover, a.active{
     background-color: #E33741;
     border-radius: 5px;
 }
+
 /*======Booking section css =======
 ==========================================*/
 .main-content{
@@ -109,12 +110,21 @@ nav ul li a:hover, a.active{
 .inp-width{
     min-width: 300px;
 }
-.plus-minus-btn{
+.plus-btn{
     color: #3352F2;
     font-size: 30px;
     padding: 2px;
     margin: 10px 5px 0px 0px;
     word-spacing: 20px;
+    cursor: pointer;
+}
+.minus-btn{
+    color: #3352F2;
+    font-size: 45px;
+    padding: 4px;
+    margin: 10px 5px 0px 0px;
+    word-spacing: 20px;
+    cursor: pointer;
 }
 .booking-form .inputs{
     display: grid;
@@ -134,4 +144,35 @@ nav ul li a:hover, a.active{
 .amount{
     display: flex;
     justify-content: space-between;
+}
+
+/* =====
+booking-success-area CSS
+===== */
+#booking-success-area{
+    
+    display:none;
+}
+.booking-success-area h1{
+    font-size: 70px;
+    padding: 385px 0px 30px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-shadow: rgb(51 51 51) 2px 0px 11px;
+}
+.booking-success-area p{
+    font-size: 20px;
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    text-shadow: 2px 0px 11px #333;
+}
+.booking-success-area span{
+    color: #E33741;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    font-weight: 500;
 }
